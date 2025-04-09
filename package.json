@@ -5,6 +5,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "gw": "pnpm -F gateway",
+    "test": "pnpm -F test",
+    "api": "pnpm -F test-api",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
