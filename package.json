@@ -5,6 +5,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "gw": "pnpm -F gateway",
+    "nd": "pnpm -F namdo",
     "test": "pnpm -F test",
     "api": "pnpm -F test-api",
     "lint": "turbo run lint",
